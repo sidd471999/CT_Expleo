@@ -10,4 +10,5 @@ describe('Demo Test', () => {  // test suite
     //verify dashboard text
     cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').contains("Dashboard")
   })
+  
 })
