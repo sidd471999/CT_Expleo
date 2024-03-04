@@ -9,6 +9,11 @@ class ENV {
             credentials['password'] = 'firns123'
             return credentials;
         }
+          if (name == 'User2') {
+            credentials['username'] = 'Adminw'
+            credentials['password'] = 'firns123$'
+            return credentials;
+        }
     }
 
 }
